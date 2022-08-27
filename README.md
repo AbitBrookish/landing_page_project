@@ -1,0 +1,2 @@
+# landing-page
+A project made to flex what I've learned about css flexbox, practicing the use of <code>display: flex<code>, <code>justify-content<code>, <code>align-content<code>, <code>flex<code>, etc. 
