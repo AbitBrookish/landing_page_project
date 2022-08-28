@@ -1,4 +1,4 @@
-* {
+html {
 
 }
 
@@ -10,22 +10,112 @@ body {
 
 }
 
+.nav {
+
+}
+
+.logo {
+
+}
+
+.links {
+
+}
+
+.links ul {
+
+}
+
+li {
+
+}
+
+button {
+
+}
+
+a {
+  
+}
+
+
+
 .summary {
 
 }
+
+.container {
+
+}
+
+.container#main-title {
+
+}
+
+#main-title p {
+
+}
+
+.image img {
+
+}
+
 
 .information {
 
 }
 
+.random {
+
+}
+
+.random .list {
+
+}
+
+.list li {
+
+}
+
+
+
 .testimonial {
 
 }
+
+.quote {
+
+}
+
+.quote p {
+
+}
+
+.anotation {
+
+}
+
+
+
 
 .action {
 
 }
 
+.call {
+
+}
+
+.call h5 {
+
+}
+
+.call p {
+
+}
+
+
+
 .footer {
-  
+
 }
