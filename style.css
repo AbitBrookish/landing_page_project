@@ -62,7 +62,7 @@ a {
 }
 
 .image img {
-
+  max-width: 500px;
 }
 
 
@@ -86,6 +86,11 @@ a {
 
 .list li {
 
+}
+
+.list img {
+  max-width: 200px;
+  border: 2px #3882f6 solid;
 }
 
 
