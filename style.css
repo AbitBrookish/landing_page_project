@@ -15,7 +15,8 @@ body {
 }
 
 .logo {
-
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .links {
@@ -23,11 +24,11 @@ body {
 }
 
 .links ul {
-
+  font-size: 18px;
 }
 
 li {
-
+  list-style: none;
 }
 
 button {
@@ -35,7 +36,8 @@ button {
 }
 
 a {
-  
+  color: #f9faf8;
+  text-decoration: none;
 }
 
 
@@ -48,12 +50,15 @@ a {
   background-color: #1f2937;
 }
 
-.container#main-title {
-
+.container h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
-#main-title p {
-
+.container p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .image img {
@@ -67,6 +72,12 @@ a {
 
 .random {
 
+}
+
+.random h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 
 .random .list {
@@ -88,7 +99,10 @@ a {
 }
 
 .quote p {
-
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .anotation {
