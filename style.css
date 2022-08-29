@@ -98,9 +98,9 @@ a {
 
 }
 
-.quote p {
+.testimonial p {
   font-size: 36px;
-  font-weight: light;
+  font-weight: lighter;
   font-style: italic;
   color: #1f2937;
 }
