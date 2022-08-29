@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-
+  background-color: #1f2937;
 }
 
 .nav {
@@ -31,7 +31,7 @@ li {
 }
 
 button {
-
+  background-color: #3882f6;
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 .container {
-
+  background-color: #1f2937;
 }
 
 .container#main-title {
@@ -80,7 +80,7 @@ a {
 
 
 .testimonial {
-
+  background-color: #e5e7eb;
 }
 
 .quote {
@@ -99,7 +99,7 @@ a {
 
 
 .action {
-
+  background-color: #3882f6;
 }
 
 .call {
@@ -117,5 +117,5 @@ a {
 
 
 .footer {
-
+  background-color: #1f2937;
 }
