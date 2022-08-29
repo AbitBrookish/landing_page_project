@@ -3,7 +3,9 @@ html {
 }
 
 body {
-
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -11,12 +13,15 @@ body {
 }
 
 .nav {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bolder;
 }
 
 .links {
@@ -25,6 +30,8 @@ body {
 
 .links ul {
   font-size: 18px;
+  display: flex;
+  gap: 32px;
 }
 
 li {
@@ -43,11 +50,11 @@ a {
 
 
 .summary {
-
+  background-color: #1f2937;
 }
 
 .container {
-  background-color: #1f2937;
+
 }
 
 .container h2 {
@@ -137,4 +144,6 @@ a {
 
 .footer {
   background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
 }
