@@ -167,17 +167,24 @@ button a {
 
 .action {
   background-color: #3882f6;
+  margin: 5em;
+  padding: 4em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.call {
-
+#call {
+  color: #f9faf8;
 }
 
-.call h5 {
-
+#call h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
 
-.call p {
+.action #call p {
 
 }
 
