@@ -41,7 +41,16 @@ li {
 button {
   background-color: #3882f6;
   display: flex;
-  padding: 4px 26px;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.action button {
+  background-color: #3882f6;
+  display: flex;
+  padding: 8px 32px;
+  border: 2px solid #f8faf9;
+  border-radius: 8px;
 }
 
 a {
@@ -86,6 +95,7 @@ button a {
   max-width: 500px;
   margin: 16px;
   margin-right: 32px;
+  border-radius: 32px;
 }
 
 
