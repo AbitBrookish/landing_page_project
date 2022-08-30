@@ -94,7 +94,9 @@ button a {
 }
 
 .random {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .random h3 {
@@ -107,13 +109,27 @@ button a {
 
 }
 
-.list li {
+.list ul {
+  display: flex;
+}
 
+.list li {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 16px;
 }
 
 .list img {
   max-width: 200px;
-  border: 2px #3882f6 solid;
+  max-height: 200px;
+  border: 4px #3882f6 solid;
+}
+
+.list p {
+  text-align: center;
+  max-width: 200px;
 }
 
 
