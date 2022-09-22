@@ -65,21 +65,39 @@ body {
 
 .hero {
   background: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  min-width: 19rem;
+  flex-shrink: 2;
+  margin: 1rem;
 }
 
 .hero-text__title {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-text__description {
   color: #e5e7eb;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 .button {
   background: #3882f6;
+}
+
+.hero-image__container {
+  min-width: 32rem;
+  flex-shrink: 1;
 }
 
 .information-header__title {
