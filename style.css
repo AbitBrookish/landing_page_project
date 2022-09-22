@@ -1,6 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -9,6 +12,12 @@ a {
 
 ul {
   list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  flex: 1;
+  overflow: auto;
 }
 
 .header {
