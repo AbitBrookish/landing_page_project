@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', Helvetica, sans-serif;
@@ -68,6 +69,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 1;
+  min-height: 17rem;
 }
 
 .hero-text {
@@ -109,6 +112,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 1;
+  min-height: 17rem;
+  margin: 8rem;
 }
 
 .information-header__title {
@@ -126,6 +132,17 @@ body {
 
 .testimonial {
   background: #e5e7eb;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-shrink: 1; */
+  /* align-items: center; */
+  min-height: 17rem;
+}
+
+.testimonial-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .testimonial-quote__item {
@@ -133,11 +150,19 @@ body {
   font-weight: light;
   font-style: italic;
   color: #1f2937;
+  max-width: 60rem;
+  margin: 8rem 8rem 1rem 8rem;
 }
 
-.cta div {
-  background: #3882f6;
+.testimonial-quote__ref {
+  text-align: right;
+  margin: 0.5rem 8rem 5rem 8rem;
 }
+
+.cta {
+  min-height: 17rem;
+}
+
 
 .main-footer {
   background: #1f2937;
