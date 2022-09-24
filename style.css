@@ -230,19 +230,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 2rem 2rem;
   border-radius: 8px;
 }
 
 .cta-banner {
   padding: 1.5rem 3rem 1.5rem 3rem;
-  
+}
+
+.cta-banner__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
 }
 
 .cta-button {
   padding: 1.5rem 3rem 1.5rem 3rem;
 }
 
+.cta-banner__description {
+  font-size: 24px;
+  color: #f9faf8;
+}
 
 .main-footer {
   background: #1f2937;
