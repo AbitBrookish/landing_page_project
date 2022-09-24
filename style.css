@@ -45,7 +45,7 @@ body {
 
 .logo:hover,
 .logo:active {
-  color: red;
+  color: #ccc;
 }
 
 .main-nav {
@@ -68,7 +68,7 @@ body {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-  color: red;
+  color: #ccc;
 }
 
 .hero {
@@ -90,7 +90,7 @@ body {
 .hero-text__title {
   color: #f9faf8;
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800;
   margin: 0;
   padding: 0;
 }
@@ -152,7 +152,7 @@ body {
 
 .information-header__title {
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: 800;
   color: #1f2937;
   margin: 1rem;
   margin-bottom: 3rem;
@@ -202,8 +202,9 @@ body {
 }
 
 .testimonial-quote__item {
+  font-family: 'fira sans', 'verdana', sans-serif;
   font-size: 36px;
-  font-weight: light;
+  font-weight: 200;
   font-style: italic;
   color: #1f2937;
   max-width: 60rem;
@@ -213,6 +214,8 @@ body {
 .testimonial-quote__ref {
   text-align: right;
   margin: 0.5rem 8rem 5rem 8rem;
+  font-weight: 800;
+
 }
 
 .cta {
@@ -233,6 +236,7 @@ body {
 
 .cta-banner {
   padding: 1.5rem 3rem 1.5rem 3rem;
+  
 }
 
 .cta-button {
