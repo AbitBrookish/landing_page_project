@@ -131,7 +131,7 @@ body {
   justify-content: center;
   flex-shrink: 1;
   min-height: 17rem;
-  margin: 0;
+  margin: 2rem;
 }
 
 .information-header__title {
@@ -139,6 +139,7 @@ body {
   font-weight: bolder;
   color: #1f2937;
   margin: 1rem;
+  margin-bottom: 3rem;
 }
 
 .information-list__items {
@@ -155,11 +156,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 18rem;
+}
+
+.information-list__item p {
+  text-align: center;
 }
 
 .information-list__item-image {
   max-width: 200px;
   max-height: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 10%;
 }
 
 .testimonial {
