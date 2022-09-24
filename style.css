@@ -228,6 +228,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2rem 2rem;
+  border-radius: 8px;
 }
 
 .cta-banner {
